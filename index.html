@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url" content="http://chihiro052.html.xdomain.jp/portfolio-site/">
+    <meta property="og:type" content="website"><!-- website・article・blog/下層ページはすべてarticle -->
+    <meta property="og:title" content="Chihiro's Portfolio"><!-- og:title設定なしの場合は<title>が表示される -->
+    <meta property="og:description" content="Webデザインとグラフィックデザインのポートフォリオサイトです。">
+    <meta property="og:image" content="http://chihiro052.html.xdomain.jp/portfolio-site/img/chihiro'sportfolio-summary-image.png"><!-- 絶対パスで指定-->
+
+	<meta property="og:site_name" content="Chihiro's Portfolio">
+
+    <meta name="twitter:card" content="summary">
+
+    <title>Chihiro's Potifolio</title>
+    <link rel="shortcut icon" href="img/C-icon.svg"　type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Noto+Sans+JP:wght@100&family=Poppins:wght@100;200&family=Shippori+Mincho&family=League+Script&display=swap" rel="stylesheet">
+
+</head>
+<body id="index">
+    <header>
+        <div class="nav-wrapper">
+            <nav class="header-nav header_pos10">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html#index">Top</a></li>
+                    <li class="nav-item"><a href="#profile">Profile</a></li>
+                    <li class="nav-item"><a href="#skill">Skill</a></li>
+                    <li class="nav-item"><a href="#work">Work</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-bgimage-wrapper">
+            <div class="header-bgimage1"></div>
+            <div class="header-bgimage2"></div>
+            <div class="header-bgimage3"></div>
+        </div>
+        <div class="hide-hbg"></div>
+
+       
+        <!-- ハンバーガーメニュー -->
+        <div class="bar_nav-wrapper">
+            <nav class="bar_header-nav">
+                <ul class="bar_nav-list">
+                    <li class="bar_nav-item"><a href="index.html">Home</a></li>
+                    <li class="bar_nav-item"><a href="#profile">Profile</a></li>
+                    <li class="bar_nav-item"><a href="#skill">Skill</a></li>
+                    <li class="bar_nav-item">
+                        <a class="bar_nav-item-work-parent" href="#work">Work</a>
+                        <dl>
+                            <dt><a class="bar_nav-item-work-child" href="#webdesign">- Web Design -</a></dt>
+                                <dd ><a class="bar_nav-item-work-child-child" href="portfolio-webdojo.html">Web school site</a></dd>
+                                <dd ><a class="bar_nav-item-work-child-child" href="portfolio-portfoliosite.html">Portfolio site</a></dd>
+                                <dd ><a class="bar_nav-item-work-child-child" href="tatamistore.html">Tatami store site</a></dd>
+                        
+                        <dt><a class="bar_nav-item-work-child" href="#graphicdesign">- Graphic Design -</a></dt>
+                        <dd><a class="bar_nav-item-work-child-child" href="portfolio-businesscard.html">Businesscard</a></dd>
+                        <dd><a class="bar_nav-item-work-child-child" href="portfolio-postcard.html">Postcard</a></dd>
+                        <dd><a class="bar_nav-item-work-child-child" href="portfolio-package.html">Package</a></dd>
+                        <dd><a class="bar_nav-item-work-child-child" href="portfolio-flyer.html">Flyer</a></dd>
+                    </dl>
+                    </li>
+                
+        </div>
+        <!--  /ナビ表示時 ナビの外をクリックしたら閉じるようにする用 -->
+        <span class="nav_bg"></span>
+        <div class="burger-wrapper">
+            <div class="burger-btn">
+                <span class="bars">
+                    <span class="bar bar-top"></span>
+                    <span class="bar bar-mid"></span>
+                    <span class="bar bar-bottom"></span>
+                </span>
+            </div>
+        </div>
+         <div class="header-posAbsolute">
+             <h1 class="title  header_pos10"><img class="filter-kousai" src="img/title.png" alt="ちひろのポートフォリオです"></h1>
+             <div class="scroll"><span>Scroll</span></div>
+            <p class="header-laptop header_pos10" ><img class="filter-kousai" src="img/laptop-main.png" alt="パソコンのイラスト"></p>
+            <p class="zigazou header_pos10"><img class="filter-kousai" src="img/zigazou.png" alt="自画像のイラスト"></p>
+         </div>
+    </header>
+    <main>
+        <!--------------------------------------------------
+        --------------------本文START!!!---------------------
+        
+                            プロフィール
+
+        -----------------------------------------------------
+        ---------------------------------------------------->
+        <section id="profile" class="sec-profile">
+            <!-- 左下に筆記体のアニメーション -->
+         <div class="signature-box">
+             <svg viewBox="0 0 500 550" xmlns="http://www.w3.org/2000/svg">
+                  <text class="signature-base signature-target" x="10" y="520">
+                    Designer
+                  </text>
+           </svg>
+          </div>
+          <!-- 左下に筆記体のアニメーション End-->
+        <div class="personalInfo">
+            <div class="h2-wrapper">
+                <h2><img class="header_pos10" src="img/Profile.png" alt="プロフィール"></h2>
+            </div>
+                <div>
+                    <div class="basic-info">
+                        <h3 class="myname">やまもと　ちひろ</h3>
+                        <!--<p class="birthday">1993年 生まれ</p>-->
+                        <p class="for_SP prof-zigazou"><img src="img/zigazou.png" alt="自画像のイラスト"></p>
+                    </div>
+                    <div class="myhobby-wrapper">
+                
+                        <p class="profile-content">
+                            <!--<span class="span-br">-->
+                                <div class="profile-content-sentence1">
+                                    　車用品のECサイト運営会社にて、楽天の出店サイトを担当し、マーケティングやWebデザインに携わった。
+                                </div><!--</span><span class="span-br"></span>-->
+                            <div class="profile-content-sentence2">
+                                　その後酒販店にて各種チラシ、ポスター、SNS投稿画像などのデザイン作成業務に携わり、現在に至る。
+                            </div>
+                        </p>
+                    </div>
+                </div>
+        </div><!-- personalInfo End -->
+                <!--<div class="history-wrapper">
+                    <h4 class="title-history">これまでの歩み</h4>
+                    <div class="history-content">
+                        
+                            <div class="history-item-wrapper history-item-wrapper-index1">
+                            <p class="history-item-period">For 3 years & 11 months</p>
+                            <h6> デザインの分野に心惹かれていったアパレル販売員時代</h6>
+                            <p class="history-item-desc">
+                                販売を通して日々たくさんのアパレル商品のデザインに触れることができました。また、新商品説明会でデザイナーの方の話を聞く経験などを通し
+                                これまで想像できなかった、世の中に出回っていて日頃目にする商品デザインを創り上げている世界を肌で感じてきました。こういった経験を通してデザインの分野に強く心惹かれるようになりました。
+                            </p>
+                        </div>
+                    
+                         <div class="history-item-wrapper history-item-wrapper-index1">
+                        <p class="history-item-period">For 2 years & 8 months</p>
+                            <h6>和な設えの宿坊体験型施設で様々な業務に取り組む</h6>
+                            <p class="history-item-desc">
+                                フロント業務や、発注業務、厨房業務など施設営業において必要な業務全般に携わっていました。<br>
+                                客室に置くA4版のサービス案内や、
+                                修行体験など集客Upを目的としたA3版のポスター、
+                                フロントで使用するPOPなど、印刷物のデザイン制作も担当しました。
+                            <br>
+                            </p>
+                        </div>
+                        <div class="history-item-wrapper history-item-wrapper-index2">
+                            <p class="history-item-period">For 8 months</p>
+                            <h6>職業訓練・スクールでデザインを学ぶ。</h6>
+                            <p class="history-item-desc">
+                                独学でコーディングやデザインの基礎知識を学んだ後、職業訓練色彩舎ソリューション、スクールnoa,大成情報学院にて
+                                グラフィックデザイン、Webサイト制作・プログラミングの基礎を学びました。
+                            </p>
+                        </div>
+                        <div class="history-item-wrapper history-item-wrapper-index3">
+                            <p class="history-item-period">For 1 year and 8 months 
+                            </p>
+                            <h6>車用品販売のECサイト運営会社にて楽天の店長を担当</h6>
+                            <p class="history-item-desc">
+                                車用品販売のECサイト運営会社にて、売り上げ向上を目指して分析や戦略考案、<br>
+                                Adobe Illustrator, Photoshopを用いて商品画像の作成や、HTMLを用いてバナー貼りやサイト更新などを行ってきました。
+                            
+                            </p>
+                        </div>
+                    </div>     
+                </div>-->
+            </section>
+             <!--------------------------------------------------
+        
+                                    スキル
+
+             ----------------------------------------------------->
+            <section id="skill" class="sec-skill">
+                <div class="h2-wrapper">
+                    <h2><img src="img/skill.png" alt=""></h2>
+                </div>
+                <div class="skill-box-wrapper">
+                    <a href="#webdesign">
+                        <div class="skill-box box-webdesign">
+                            <h3>Web Design</h3>
+                                <p><img src="img/webdesign.png" alt="パソコンの画像"></p>
+                                <p>
+                                サイト企画・デザイン制作（カンプ制作）
+                                HTML・CSS・JavaScriptの言語を使った
+                                コーディングによるWebサイト制作を
+                                致します。
+                            </p>
+                        </div>
+                     </a>
+                     <a href="#graphicdesign">
+                    <div class="skill-box box-graphicdesign">
+                        <h3>Graphic Design</h3>
+                        <p><img src="img/graphicdesign.png" alt=""></p>
+                        <p>illustrator,Photoshopのソフトを用いて行います。名刺、チラシ、ポストカード、マグネットの商品デザインなど作成経験があります。</p>
+                    </div>
+                    </a>
+                </div>
+                <!--
+                <div class="shisei-wrapper">
+                    <div>
+                        <h3 class="shisei-wrapper-index">取り組む姿勢について</h3>
+                        <div class="shisei-wrapper-content">
+                            <p>
+                                　接客業に携わっていた際、お客様の立場に立ってサービスを考え、お客様の
+                                嗜好に合わせて商品やプランを提案するといった経験をしてきました。
+                            </p>
+                            <p>　
+                                デザイン制作する際もサイトなどを見る方の側の視点に立って、知りたい情報
+                                にアクセスしやすく興味を引き出していくような流れのあるような、
+                                デザイン制作に取り組んでいます。
+                            </p>
+                            <p class="for_pc">
+                                また、市場調査データや心理学等の知見に基づいた『根拠のあるデザイン』制作に取り組み、デザイン依頼していただいた目的や課題解決に効果的なデザイン制作をいたします。
+                            </p>
+                    
+                        </div>
+                        </div>
+                        -->
+            </section>
+            <!--------------------------------------------------
+        
+                                   WORK
+
+             ----------------------------------------------------->
+            <section id="work" class="sec-work">
+                <div class="h2-wrapper">
+                    <h2><img src="img/Work.png" alt="ポートフォリオ"></h2>
+                </div>
+               
+                <div class="wd-wrapper" id="webdesign">
+                    <h3 class="title-work-webdesign yoko-stroke-wd" id="barOffsetWd">Web Design</h3>
+                    <div class="work-desc for_onlySP">
+                        レスポンシブに対応したサイトを企画からデザイン・コーディングまで<br>手掛けております。
+                        <p class="img-work-desc"><img src="img/webdesign.png" alt="">
+                    </div>
+                    </p>
+                    <div class="wd-item-wrapper">
+                        <div class="wd-item-row wd-item-row1">
+                            <div class="wd-item wd-item1">
+                                <h4>Web design school</h4>
+                                <p class="wd-item-img"><img class="item-reveal-first" src="img/webdojo.png" alt="作品制作用の架空Webスクールのサムネイル画像"></p>
+                                <p class="item-desc">
+                                    Webデザイン・プログラミングを学べる
+                                    スクールの架空サイトのWebサイト
+                                    制作をしました。
+                                </p>
+                                <div class="link-btn">
+                                    <a href="portfolio-webdojo.html" target="_blank"><p class="link-itempage">詳しく見る</p></a>
+                                    <a href="http://chihiro052.html.xdomain.jp/Webdojo/" target="_blank"><p class="link-site">サイトを見る</p></a>
+                                </div>
+                            </div>
+
+                            <div class="wd-item wd-item2">
+                                <h4>Chihiro's Portfolio</h4>
+                                <p class="wd-item-img"><img class="item-reveal-second" src="img/portfolio.img.png" alt="ポートフォリオサイトのサムネイル画像"></p>
+                                <p class="item-desc">
+                                    自身のポートフォリオサイトです。
+                                    落ち着きがありつつ明るいイメージのデザインに
+                                    仕上げました。<br>自身で制作したイラストや、写真などを入れています。
+                                </p>
+                                <div class="link-btn-single">
+                                    <a href="portfolio-portfoliosite.html" target="_blank"><p class="link-itempage link-itempage-single">詳しく見る</p></a>
+                                </div>
+                            </div>
+                        </div><!--wd-item-row1 END -->
+                        <!--<div>
+                            <div class="wd-item-row wd-item-row2">
+                                <div class="wd-item wd-item3">
+                                    <h4>Making tatami mats store</h4>
+                                    <p class="wd-item-img"><img class="item-reveal-first" src="img/tatamistore.png" alt="畳屋の仮想リニューアルサイトのサムネイル画像"></p>
+                                    <p class="item-desc">
+                                        畳店の仮想リニューアルサイトを制作しました。
+                                    </p>
+                                    <div class="link-btn-single">
+                                        <a href="tatamistore.html" target="_blank"><p class="link-itempage link-itempage-single">詳しく見る</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div><!--wd-item-wrapper END -->
+                </div><!--wd-wrapper END -->
+
+                <div class="gd-wrapper" id="graphicdesign">
+                    <h3 class="title-work-graphicdesign yoko-stroke-gd" id="barOffsetGd">Graphic Design</h3>
+                    <div class="work-desc for_onlySP">
+                        チラシ・ポスター作成等の経験があります。<br>※掲載作品は自主制作物中心になります。
+                        <p class="img-work-desc"><img src="img/graphicdesign.png" alt=""></div>
+                    </p>
+                    <p class="textAlign-center chara-pickup"><img src="img/PickUp.png" alt=""></p>
+
+                                <!---------------
+                                    businesscard 
+                                    ---------------->
+                    <div class="gd-item-wrapper">
+                        <div class="gd-item gd-item-businessCard">
+                            <div class="gd-item-img gd-item-img-businessCard">
+                                <p class="wrapper_businesscard-front-img item-reveal-rotate-reverse"><img class="businesscard-front-img" src="img/businesscard-front.jpg" alt="名刺の表の画像"></p>
+                                <p class="wrapper_businesscard-back-img"><img class="businesscard-back-img" src="img/businesscard-back.jpg " alt="名刺の裏の画像"></p>
+                            </div>
+                            <div class="gd-item-text">
+                                <h4>Business Card</h4>
+                                <p class="gd-catchcopy">
+                                    フォーマルなベースカラーに<br>
+                                    ちょっぴり遊び心を
+                                </p>
+                                <p class="gd-item-desc for_pc">
+                                    自身の星座である蟹とイニシャル
+                                    C・Mを用いて作成したロゴを大胆
+                                    に配置しました
+                                </p>
+                            </div><!-- gd-item-text END -->
+                        </div><!--gd-item END -->
+                        <div class="gd-link-btn-wrapper">
+                        <a href="portfolio-businesscard.html" target="_blank"><p class="link-itempage">詳しく見る</p></a>
+                        </div>
+                      
+                    </div><!--gd-wrapper END -->
+
+                                <!--businesscard END-->
+
+
+                                <!---------------
+                                      post card 
+                                    --------------->
+
+                        <div class="gd-item-wrapper">
+                            <div class="gd-item gd-item-postcard">
+                            
+                                    <p class="wrapper_newYears-img gd-item-img">
+                                        <img class="item-reveal-rotate" src="img/newyearscard2022wild.jpg" alt="">
+                                        </p>
+                                
+                                <div class="gd-item-text">
+                                    <h4>New Year's Card</h4>
+                                    <p class="gd-catchcopy">
+                                        年の始まりの力強い決心を
+                                        応援するジャングルの野生動物</p>
+                                    <p class="gd-item-desc for_pc">
+                                        写真を赤系の色に加工し黄色い水玉を差し込み、
+                                        POPで明るいイメージに仕上げました。
+                                    </p>
+                                    </div>
+                            </div><!-- gd-item END -->
+                            <div class="gd-link-btn-wrapper">
+                                <a href="portfolio-postcard.html" target="_blank"><p class="link-itempage">詳しく見る</p></a>
+                                </div>
+                        </div><!--gd-item-wrapper END -->
+                        
+                                <!-----------------------
+                                    christmas package
+                                --------------------->
+                    <div class="gd-item-wrapper">
+                        <div class="gd-item gd-item-package">
+                                    <div class="gd-item-img wrapper_package-img">
+                                        <img class="item-reveal-rotate-reverse" src="img/christmas-gift-package.png" alt="お菓子のパッケージ　写真">
+                                    </div>
+                                <div class="gd-item-text">
+                                    <h4>Package for Christmas</h4>
+                                    <p class="gd-catchcopy">
+                                        楽しく英語に触れる
+                                        クリスマスお菓子用パッケージ
+                                    </p>
+                                    <p class="gd-item-desc for_pc">
+                                        油性マジックなどで表面の文字を
+                                        なぞって完成します。
+                                        裏には英語クイズがある楽しめる
+                                        パッケージです。
+                                    </p>
+                                </div><!-- gd-item-text END-->
+                        </div><!-- gd-item END -->
+                        <div class="gd-link-btn-wrapper">
+                            <a href="portfolio-package.html" target="_blank"><p class="link-itempage">詳しく見る</p></a>
+                            </div>
+                    </div><!-- gd-item-wrapper END -->
+
+                                 <!--christmas package END -->
+
+                                 <!----------------
+                                        Flyer
+                                    ----------------->
+
+                        <div class="gd-item-wrapper">
+                            <div class="gd-item gd-item-Flyer">
+                                    <p class="gd-item-img wrapper_shikisaiFlyer-img">
+                                        <img class="item-reveal-rotate" src="img/shikisaikenteiflyer-cm.jpg" alt="">
+                                    </p>
+                                
+                                <div class="gd-item-text">
+                                    <h4>Flyer</h4>
+                                    <p class="gd-catchcopy">幸福な場面を創造する色彩とその広がる可能性を表現</p>
+                                    <p class="gd-item-desc for_pc">
+                                        色彩の検定告知用チラシのコンセプト設定・デザインをしました。
+                                    </p>
+                                </div>
+                            </div><!-- gd-item END -->
+                            <div class="gd-link-btn-wrapper">
+                                <a href="portfolio-flyer.html" target="_blank"><p class="link-itempage">詳しく見る</p></a>
+                                </div>
+                        </div><!--gd-item-wrapper END -->
+
+                            <!--Flyer END -->
+                
+                    <!-- もっと見る btn -->
+                    <!--
+                    <div class="link-itempage-last">
+                        <a href="#">
+                            もっと見る
+                            <p class="wrapper_link-last">
+                                <img src="img/link-last.png" alt="">
+                            </p>
+                        </a>
+                    </div>-->
+                </div><!--gd-wrapper END -->
+              <!--  <div class="moreworks">
+                    <span class="span-br">現在、スキルアップと実績を増やすため、</span><span class="span-br">無償でサイトを制作させていただける方を</span><span class="span-br">募集しております。</span><br>
+<span class="span-br">お話をお伺いし意向の合う方とお願いしたいと思っております。</span>
+<span class="span-br">興味がある方は、お気軽にお声掛けください。</span>-->
+<!--
+<a class="link-to-site-seisaku" href="site-seisaku.html">
+    <p class="to-site-seisaku">詳細はこちら   >></p>
+        /a>-->
+                </div>
+            </section>
+            <!----- fixさせるもの ----->
+                
+                
+                <!--上に戻るボタン-->
+                <p class="link-top-btn"><img src="img/topbtn.png" alt=""></p>
+                
+    </main>
+    <footer>
+        <div class="footer-contact">
+            <p>Chihiro</p>
+            <p class="footer-email">chiiro052@icloud.com</p>
+        </div>
+        <p class="copyright"><small>&copy;  Yamamoto Chihiro</small></p>
+    </footer>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>    
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
